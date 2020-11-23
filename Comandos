@@ -1,0 +1,27 @@
+-Per començar he clonat els archius del professor i he posat la seguent ordre:
+git clone https://github.com/aginard/DebuggerGit
+
+-He pujat el repositori al meu compte de github amb les seguents ordre:
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/miquelangelamengual/DebuggerGit.git
+git push -u origin main
+
+-Despres he creat una branca anomenada "hotfix".
+git checkout -b hotfix
+
+-He empleiat el debugger per trobar els errors.
+
+-He corregit el comit
+git add .
+git commit -m "missatge"
+git push origin hotfix
+
+-He fet el merge dels canvis a la meva branca master en local.
+git add .
+git commit -m "missatge"
+git push origin hotfix
+git checkout main
+git merge hotfix
+
+-He pujat tot els arxius incluit el txt.
