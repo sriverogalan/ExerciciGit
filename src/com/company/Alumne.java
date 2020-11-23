@@ -6,7 +6,7 @@ public class Alumne {
 
     private String nom;
     private int edat;
-    private int [] notes;
+    private int [] notes = {7,5,1,5,9,6,4,8,8,};
 
     public Alumne(String nom, int edat, int [] notes) {
         this.nom = nom;
