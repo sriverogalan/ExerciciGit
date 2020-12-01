@@ -1,18 +1,19 @@
--Per començar he clonat els archius del professor i he posat la seguent ordre:
+-Per començar he clonat els arxius del professor i he posat la següent ordre:
 git clone https://github.com/aginard/DebuggerGit
 
--He pujat el repositori al meu compte de github amb les seguents ordre:
+-He pujat el repositori al meu compte de github amb les següents ordre:
 git remote -v
 git remote remove origin
-git remote add origin https://github.com/miquelangelamengual/DebuggerGit.git
+git remote add origin https://github.com/sriverogalan/ExerciciGit
 git push -u origin main
 
--Despres he creat una branca anomenada "hotfix".
+-Després he creat una branca anomenada "hotfix".
 git checkout -b hotfix
 
--He empleiat el debugger per trobar els errors.
+-He empleiat el debugger per trobar els errors, l'error estava a l'array de notes a la clase Alumne, faltava que declares
+els nombres
 
--He corregit el comit
+-He fet el comit
 git add .
 git commit -m "missatge"
 git push origin hotfix
